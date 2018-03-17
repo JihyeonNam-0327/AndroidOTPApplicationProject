@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">췍길만걷자</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">설정메뉴를살릴까말까</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_qrcode">QRCode</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_chat">Chat</string>
+    <string name="content_calendar">일정관리</string>
+    <string name="content_home">홈</string>
+    <string name="content_qrcode">바코드</string>
+    <string name="content_chat">한줄게시판</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_button">인증하기</string>
+    <string name="fragment_button2">QR코드 요청하기</string>
+    <string name="fragment_button3">CALENDAR BUTTON</string>
+    <string name="fragment_button4">한줄 게시판</string>
+
+    <!-- IntroSlider 에 필요한 String -->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">췍길만 걷자</string>
+    <string name="slide_1_desc">한국폴리텍\n융합기술교육원\n출석 체크 앱</string>
+
+    <string name="slide_2_title">학생 인증을 해 주세요.</string>
+    <string name="slide_2_desc">먼저,</string>
+
+    <string name="slide_3_title">QR코드를 요청하세요.</string>
+    <string name="slide_3_desc">인증을 마쳤다면</string>
+
+    <string name="slide_4_title">단 1초면 충분합니다.</string>
+    <string name="slide_4_desc">출석 체크에 걸리는 시간</string>
+
+    <string name="slide_5_title">췍길만 걷자</string>
+    <string name="slide_5_desc">이제</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_setting">SettingActivity</string>
+</resources>
