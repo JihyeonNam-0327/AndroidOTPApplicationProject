@@ -27,6 +27,8 @@
     <color name="dot_light_screen4">#e4b5fc</color>
     <color name="dot_light_screen5">#ffeed7</color>
 
+    <color name="pure_white">#ffffff</color>
+
     <array name="array_dot_active">
         <item>@color/dot_light_screen1</item>
         <item>@color/dot_light_screen2</item>

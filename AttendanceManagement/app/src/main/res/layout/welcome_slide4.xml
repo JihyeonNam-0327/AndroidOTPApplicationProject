@@ -13,44 +13,7 @@
         android:orientation="vertical"
         android:id="@+id/linearLayout3">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:paddingLeft="@dimen/desc_padding"
-            android:paddingRight="@dimen/desc_padding"
-            android:text="@string/slide_4_desc"
-            android:layout_gravity="left"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/slide_desc" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/slide_4_title"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/slide_title"
-            android:textStyle="bold" />
-
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_below="@+id/linearLayout3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="90dp"
-        app:srcCompat="@drawable/ic_nfc_black_24dp" />
-
-    <TextClock
-        android:id="@+id/textClock"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imageView4"
-        android:layout_below="@+id/linearLayout3"
-        android:layout_marginEnd="18dp"
-        android:layout_marginTop="58dp" />
 
 
 </RelativeLayout>

@@ -46,103 +46,30 @@
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/linearLayout"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="83dp"
+        android:layout_centerVertical="true"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="20182341009" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="250dp"
-        android:layout_height="120dp"
-        android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="77dp"
-        app:srcCompat="@color/dot_light_screen2" />
-
-    <QuickContactBadge
-        android:id="@+id/quickContactBadge"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_alignStart="@+id/editText"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="25dp"
-        app:srcCompat="@drawable/ic_person_black_24dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/quickContactBadge"
-        android:layout_marginStart="32dp"
-        android:layout_toEndOf="@+id/quickContactBadge"
-        android:text="데이터융합SW" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/textView2"
-        android:layout_below="@+id/textView2"
-        android:layout_marginTop="7dp"
-        android:text="장문복" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/quickContactBadge"
-        android:layout_alignStart="@+id/textView3"
-        android:text="20182341009" />
+        android:focusable="false"
+        android:text="20182341009"
+        />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView2"
+        android:layout_alignBottom="@+id/editText"
         android:layout_alignStart="@+id/editText"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="52dp"
         android:text="학번을 입력해 주세요." />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
-        app:srcCompat="@drawable/ic_expand_more_black_24dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/quickContactBadge"
-        android:layout_below="@+id/imageView2"
-        android:layout_marginEnd="23dp"
-        android:layout_marginTop="23dp"
-        android:text="본인이 맞나요?"
-        android:textSize="18dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="70dp"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView6"
-        android:layout_alignBottom="@+id/textView6"
-        android:layout_toEndOf="@+id/textView5"
-        android:text="네" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="70dp"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button"
-        android:layout_alignBottom="@+id/button"
-        android:layout_toEndOf="@+id/textView2"
-        android:text="아니오" />
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:text="로그인" />
 
 </RelativeLayout>

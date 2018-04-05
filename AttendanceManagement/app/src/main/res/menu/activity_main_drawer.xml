@@ -4,19 +4,22 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_setting"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="설정" />
+        <item android:title="개발자 정보">
+            <menu>
+                <item
+                    android:id="@+id/nav_qna"
+                    android:icon="@drawable/ic_error_black_24dp"
+                    android:title="sunhee.master@gmail.com" />
+            </menu>
+        </item>
     </group>
 
-    <item android:title="어플 정보">
+    <item android:title="학교 정보">
         <menu>
             <item
-                android:id="@+id/nav_qna"
-                android:icon="@drawable/ic_error_black_24dp"
-                android:title="문의하기" />
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="전화 031 - 696 - 8800" />
         </menu>
     </item>
-
 </menu>

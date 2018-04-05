@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- QRCode -->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="kr.ac.kopo.ctc.A000.MainActivity"
+    tools:showIn="@layout/app_bar_main_1">
+
+    <!-- BottomNavigationView를 사용할 때 주의해야 할 것은 내용이 담기는 레이아웃이
+     BottomNavigationView 보다 위에 올라와야 한다는 것 입니다. 이 때 사용하는 속성이
+     layout_marginBottom="?attr/actionBarSize" 입니다. -->
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonForQRcode"
+        android:text="바코드 요청하기"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/countDown"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_alignEnd="@id/imageViewForQRcode"
+        android:layout_below="@id/buttonForQRcode"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewForQRcode"
+        android:layout_below="@id/countDown"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/fab_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/barcode_number"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageViewForQRcode"
+        android:layout_gravity="center_horizontal"
+        android:letterSpacing="0.6"
+        android:textSize="20dp"/>
+
+
+    <include
+        layout="@layout/element_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

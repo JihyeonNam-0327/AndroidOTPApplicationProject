@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CHAT -->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="kr.ac.kopo.ctc.A000.MainActivity"
+    tools:showIn="@layout/app_bar_main_1">
+
+    <!-- BottomNavigationView를 사용할 때 주의해야 할 것은 내용이 담기는 레이아웃이
+     BottomNavigationView 보다 위에 올라와야 한다는 것 입니다. 이 때 사용하는 속성이
+     layout_marginBottom="?attr/actionBarSize" 입니다. -->
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView_chat">
+    </WebView>
+
+    <include
+        layout="@layout/element_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
+
+    <!--<android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_behavior="tech.thdev.app.view.BottomNavigationBehavior"
+        app:menu="@menu/navigation" />-->
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HOME -->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="kr.ac.kopo.ctc.A000.MainActivity"
+    tools:showIn="@layout/app_bar_main_1">
+
+    <!-- BottomNavigationView를 사용할 때 주의해야 할 것은 내용이 담기는 레이아웃이
+     BottomNavigationView 보다 위에 올라와야 한다는 것 입니다. 이 때 사용하는 속성이
+     layout_marginBottom="?attr/actionBarSize" 입니다. -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView1OnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView2OnHome"
+            android:layout_marginTop="111dp"
+            android:text="안녕하세요,"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView2OnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1OnHome"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="18dp"
+            android:text="데이터융합SW, 장문복 님"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3OnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/textView1OnHome"
+            android:layout_below="@+id/textView2OnHome"
+            android:layout_marginTop="13dp"
+            android:text="오늘도 좋은 하루 보내세요."
+            android:textSize="30dp" />
+
+        <include
+            layout="@layout/element_bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+    <!--<android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_behavior="tech.thdev.app.view.BottomNavigationBehavior"
+        app:menu="@menu/navigation" />-->
+
+</android.support.constraint.ConstraintLayout>

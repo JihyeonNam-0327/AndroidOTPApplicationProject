@@ -12,24 +12,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@mipmap/ic_launcher_round" />
-
     <TextView
+        android:id="@+id/nav_header_intro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="장문복"
+        android:text="한국폴리텍대학 융합기술교육원"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nav_header_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="OTP 바코드를 활용한" />
+
+    <TextView
+        android:id="@+id/nav_header_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="20182341009" />
+        android:text="출결 관리 어플리케이션 입니다." />
 
 </LinearLayout>

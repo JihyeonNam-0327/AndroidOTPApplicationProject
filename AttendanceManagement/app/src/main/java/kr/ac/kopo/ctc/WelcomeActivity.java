@@ -18,6 +18,8 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import kr.ac.kopo.ctc.A000.HomeFragment;
+
 public class WelcomeActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private MyViewPagerAdapter myViewPagerAdapter;
@@ -57,7 +59,6 @@ public class WelcomeActivity extends AppCompatActivity {
                 R.layout.welcome_slide1,
                 R.layout.welcome_slide2,
                 R.layout.welcome_slide3,
-                R.layout.welcome_slide4,
                 R.layout.welcome_slide5};
 
         // adding bottom dots
@@ -118,7 +119,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
     private void launchHomeScreen() {
         prefManager.setFirstTimeLaunch(false);
-        startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+        startActivity(new Intent(WelcomeActivity.this, HomeFragment.class));
         finish();
     }
 

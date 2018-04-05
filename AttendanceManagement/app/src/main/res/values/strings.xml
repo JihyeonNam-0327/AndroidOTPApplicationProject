@@ -1,26 +1,16 @@
 <resources>
     <string name="app_name">췍길만걷자</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
 
-    <string name="action_settings">설정메뉴를살릴까말까</string>
     <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
     <string name="title_home">Home</string>
     <string name="title_qrcode">QRCode</string>
     <string name="title_calendar">Calendar</string>
-    <string name="title_chat">Chat</string>
-    <string name="content_calendar">일정관리</string>
-    <string name="content_home">홈</string>
-    <string name="content_qrcode">바코드</string>
-    <string name="content_chat">한줄게시판</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="home_button">인증하기</string>
-    <string name="fragment_button2">QR코드 요청하기</string>
-    <string name="fragment_button3">CALENDAR BUTTON</string>
-    <string name="fragment_button4">한줄 게시판</string>
+    <string name="title_chat">Board</string>
 
     <!-- IntroSlider 에 필요한 String -->
     <string name="next">NEXT</string>
@@ -45,4 +35,22 @@
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
     <string name="title_activity_setting">SettingActivity</string>
+
+    <!-- 새로 추가한 것 -->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">로그인</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_id">ID</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">로그인</string>
+    <string name="action_sign_in_short">로그인</string>
+    <string name="error_invalid_email">학번을 다시 확인해 주세요.</string>
+    <string name="error_invalid_password">Password 길이가 너무 짧습니다.</string>
+    <string name="error_incorrect_password">비밀번호가 맞지 않습니다.</string>
+    <string name="error_field_required">필수 입력 사항 입니다.</string>
+    <!-- 이 부분은 향후 수정될 수 있음. -->
+    <string name="permission_rationale">"이메일 제공을 위해 연락처를 사용합니다.</string>
+
 </resources>
